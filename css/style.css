@@ -6,7 +6,7 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 body {
@@ -51,19 +51,19 @@ h4 { font-size: 26px; }
   font-family: "Montserrat", Arial, sans-serif;
 }
 
-@media screen and (max-width: 768px) { .section-heading h2 { font-size: 30px; } }
+@media screen and (max-width: 768px) {
+  .section-heading h2 { font-size: 30px; }
+  .section-heading h3 { font-size: 24px; }
+  .desc p { text-align: left; }
+}
+
 .section-heading h3 {
   line-height: 1.5;
   color: #929292;
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .section-heading h3 { font-size: 24px; }
-}
-
-#features,
-#screenshot-tour { padding: 7em 0; }
+#features, #screenshot-tour { padding: 7em 0; }
 @media screen and (max-width: 480px) { #features, #screenshot-tour { padding: 5em 0; } }
 
 #screenshot-tour h3 { font-size: 30px; }
