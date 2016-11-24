@@ -9,6 +9,8 @@ body {
   color: #777777;
   background: #fff;
   height: 100%;
+  overflow-x: hidden;
+  margin: 0px;
 }
 
 p { margin-bottom: 1.5em; }
